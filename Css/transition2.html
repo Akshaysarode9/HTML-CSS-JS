@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 700px;
+            display: flex;
+            border: 1px solid;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        #child {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border: 1px solid;
+            transition: width 0.2s, height 0.2s, transition 0.2s transform 0.2s;
+        }
+        
+        #child:hover {
+            height: 300px;
+            width: 300px;
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div id="child"></div>
+</body>
+
+</html>

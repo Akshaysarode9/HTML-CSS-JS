@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+            background-color: blueviolet;
+            animation-name: box1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            position: relative;
+            animation-fill-mode: forwards;
+            /* animation-fill-mode: both;
+            animation-fill-mode: backward;*/
+            animation-timing-function: ease;
+        }
+        
+        @keyframes box1 {
+            from {
+                top: 0px;
+            }
+            to {
+                top: 400px;
+                background-color: aqua;
+            }
+        }
+        /*#box2 {
+            animation-fill-mode: backward;
+            position: relative;
+            background-color: red;
+        }*/
+    </style>
+</head>
+
+<body>
+    <div class="box" id="box1">BOX</div>
+    <!-- <div class="box" id="box2">BOX</div> -->
+</body>
+
+</html>

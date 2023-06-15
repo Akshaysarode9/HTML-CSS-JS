@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent {
+            width: 700px;
+            height: 600px;
+            border: 1px solid;
+            display: flex;
+            margin: 0 auto;
+            font-family: Roboto, Arial, sans-serif;
+            margin-top: 5.5%;
+        }
+        
+        .box {
+            width: 350px;
+            height: 598px;
+            border: 1px solid;
+        }
+        
+        #box1 {
+            width: 300px;
+            background-color: #2874f0;
+        }
+        
+        #box2 {
+            width: 400px;
+            background-color: #f0f0f0;
+        }
+        
+        #in {
+            height: 30px;
+            width: 300px;
+            margin-top: 40px;
+            margin-left: 30px;
+            border: none;
+            border-bottom: 2px solid blue
+        }
+        
+        #e1 {
+            border: none;
+            outline: none;
+            font-size: large;
+        }
+        
+        p {
+            margin-top: 30px;
+            margin-left: 30px;
+            font-size: small;
+        }
+        
+        .term {
+            text-decoration: none;
+        }
+        
+        #but {
+            height: 50px;
+            width: 330px;
+            border: none;
+            color: white;
+            background-color: #fb641b;
+            margin-top: 30px;
+            margin-left: 33px;
+            font-size: medium;
+            box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+        }
+        
+        #ac {
+            margin-top: 340px;
+            text-align: center;
+        }
+        
+        #ac1 {
+            text-decoration: none;
+            font-weight: 500px;
+        }
+        
+        #h1 {
+            margin-top: 40px;
+            margin-left: 20px;
+            color: white;
+        }
+        
+        h3 {
+            margin-left: 20px;
+            font-size: 20px;
+            margin-top: 16px;
+            line-height: 150%;
+            color: #f0f0f0;
+        }
+        
+        #box1 {
+            background-image: url(./WhatsApp\ Image\ 2023-01-03\ at\ 11.35.03\ PM.jpeg);
+            background-position: center 87%;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div class="box" id="box1">
+            <h1 id="h1"><b>login</b></h1>
+            <h3>Get access to your<br> Orders, Whishlist and Recommendations</h3>
+        </div>
+        <div class="box" id="box2">
+            <div id="in">
+                <input type="email" name="" id="e1" placeholder="Enter Email/Enter Number" autofocus>
+            </div>
+            <div id=>
+                <p>By continuing, you agree to Flipcart's
+                    <a href="https://www.flipcart.com/pages/terms" class="term">Term of use</a> and
+                    <a href="https://www.flipcart.com/pages/privacypolicy" class="term">privacy policy</a>
+                </p>
+                <div>
+                    <input type="button" value="Request OTP" id="but">
+                </div>
+                <div id="ac">
+                    <a href="https://www.flipcart.com/" id="ac1"><b>New to Flipcart ? Create an account</b></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

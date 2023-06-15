@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 100px;
+            width: 100px;
+            background-color: #fff;
+            line-height: 100px;
+            text-align: center;
+        }
+        /*MOBILE DEVICE RANGE 0PX TO 750PX*/
+        
+        @media(min-width:0px) and(max-width:750px) {
+            #parent {
+                height: 400px;
+                width: 100%;
+                background-color: yellow;
+                display: flex;
+                text-align: center;
+            }
+            .box {
+                height: 50px;
+                width: 50px;
+                background-color: black;
+                line-height: 50px;
+                text-align: center;
+                border: 1px solid;
+                color: white;
+                font-size: 10px;
+            }
+        }
+        /*TAB RANGE 751PX TO 1000PX*/
+        
+        @media(min-width:751px) and(max-width:1000px) {
+            #parent {
+                height: 400px;
+                width: 100%;
+                background-color: yellow;
+                display: flex;
+                text-align: center;
+                justify-content: space-evenly;
+            }
+        }
+        
+        .box {
+            height: 80px;
+            width: 80px;
+            background-color: black;
+            line-height: 80px;
+            text-align: center;
+            border: 1px solid;
+            color: white;
+            font-size: 10px;
+            background-image: url();
+            background-position: center 0;
+            background-repeat: no-repeat;
+            border-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="parent">
+        <div class="box" id="box1">box1</div>
+        <div class="box" id="box2">box2</div>
+        <div class="box" id="box3">box3</div>
+</body>
+
+</html>
