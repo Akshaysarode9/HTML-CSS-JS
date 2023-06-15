@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function Book(type, author) {
+            this.type = type;
+            this.author = author
+            this.getDetails = function() {
+                return this.type + "written by" + this.author
+            }
+        }
+        let b1 = new Book("kadambari", "sawant")
+        console.log(b1);
+        let b2 = new Book("function", "harry")
+        console.log(b2);
+        console.log(b1.getDetails());
+        console.log(b2.getDetails());
+    </script>
+</body>
+
+</html>

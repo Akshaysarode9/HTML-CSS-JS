@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // let obj = {
+        //         key1: "value1",
+        //         key2: "value2",
+        //         key3: "value3",
+        //         key4: "value4"
+        }
+        //obj.key5="value5"
+        //console.log(obj);
+        //delete(): ITS USED TO DELETE THE KEY AND VALUE PAIR FROM AN OBJECT.
+        //delete(obl.key5)
+        //console.log(obj);
+        //seal(): ITS USED TO LOCK THE OBJECT, IT MEANS THAT WE CANT ADD NEW KEY
+        //AND VALUE PAIR BUT WE CAN MODIFY EXITING ONE.
+        //object.seal(obj)
+        //obj.key5="value5"
+        //console.log(obj);
+        //obj.key="value is updated"
+        //console.log(obj);
+
+        //freeze():its used to freeze the object. we cant do any modification
+        // Object.freeze(obj)
+        // obj.key = "update"
+        // console.log(obj);
+        // obj.key5 = "value5"
+        // console.log(obj);
+
+        //key(): ITS USED TOF FETCHED THE KEYS OF AN OBJECT
+        // console.log(Object.keys(obj));
+
+        //values(): ITS USED TOF FETCHED THE VALUES OF AN OBJECT.
+        // console.log(Object.values(obj));
+
+        //ENTRIES(): ITS USED TO CONCERT AN OBJECT INTO THE ARRAYS.
+        // console.log(Object.entries(obj));
+
+        let obj1 = {
+            key1: "value1",
+            key2: "value2"
+        }
+        let obj2 = {
+            key1: "value3",
+            key4: "value4"
+        }
+        console.log(Object.assign(obj1, obj2));
+    </script>
+</body>
+
+</html>

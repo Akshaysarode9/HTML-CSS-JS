@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            background-image: url(./netflix.jpeg);
+        }
+        
+        #parent {
+            height: 500px;
+            width: 400px;
+            border: 1px solid;
+            background-color: black;
+            border-radius: 5%;
+        }
+        
+        .box1 {
+            width: 350px;
+            height: 598px;
+            border: 1px solid;
+            color: white;
+            background-color: #fff;
+            margin-top: 100px;
+        }
+        
+        #but {
+            height: 50px;
+            width: 330px;
+            border: none;
+            color: white;
+            background-color: red;
+            margin-top: 30px;
+            margin-left: 33px;
+            font-size: medium;
+            box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+        }
+        
+        #box1 {
+            /*width: 300px;*/
+            color: white;
+            border-radius: 5%;
+            height: 50px;
+            width: 100px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        
+        #in {
+            height: 30px;
+            width: 300px;
+            margin-top: 40px;
+            margin-left: 30px;
+            border: none;
+            /* border-bottom: 2px solid blue*/
+        }
+        
+        #p {
+            margin-top: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div class="box" id="box1">
+            <h1 id="h1"><b>Sign In</b></h1>
+            <h3></h3>
+        </div>
+        <div class="box" id="box2">
+            <div id="in">
+                <input type="email" name="" id="e1" placeholder="Enter Email" autofocus>
+            </div>
+
+            <div class="box" id="box3">
+            </div>
+            <div class="box" id="box4">
+                <div id="in">
+                    <input type="email" name="" id="e1" placeholder="Enter Password" autofocus>
+                </div>
+                <input type="button" value="Sign In" id="but">
+            </div>
+            <div id="p">
+
+                <a href="https://www.netflix.com/in/login" class="term">Term of use</a> and
+                <a href="https://www.netflix.com/in/login" class="term">privacy policy</a>
+
+                <div>
+                    <div id="ac">
+                        <a href="https://www.netflix.com/in/" id="ac1"><b>New to Netflix ? Create an account</b></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+</body>
+
+</html>

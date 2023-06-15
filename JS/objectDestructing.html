@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //OBJECT DESTRUCTING
+        let
+            des = {
+                key1: "value1",
+                key2: "value2",
+                key3: "value3"
+            }
+        console.log(des.key1);
+        let {
+            key1,
+            key2,
+            key3
+        } = des;
+        console.log(key1);
+        key1 = "value1 updated"
+        console.log(key1);
+    </script>
+</body>
+
+</html>

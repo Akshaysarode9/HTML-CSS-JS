@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 700px;
+            width: 100%;
+            border: 1px solid;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        
+        #parent {
+            height: 600px;
+            width: 250px;
+            border: 1px solid;
+            background-color: gray;
+        }
+        
+        .bulb {
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: 1px solid;
+            background-color: white;
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div class="bulb" id="bulb1"></div>
+        <div class="bulb" id="bulb2"></div>
+        <div class="bulb" id="bulb3"></div>
+    </div>
+    <script>
+        var signal = prompt("enter your input")
+        var bulb = document.getElementsByClassName("bulb")
+        if (signal == "stop" || signal == "STOP") {
+            bulb[0].style.backgroundColor = "red"
+        } else if (signal == "caution" || signal == "CAUTION") {
+            bulb[1].style.backgroundColor = "orange"
+        } else if (signal == "start" || signal == "START") {
+            bulb[2].style.backgroundColor = "green"
+        } else {
+            alert
+                ("invalid input")
+        }
+    </script>
+</body>
+
+</html>

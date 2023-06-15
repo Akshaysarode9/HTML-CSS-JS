@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // PUSH ():ITS A USED TO ADD THE ELEMENT FROM LAST INDEX.
+        // NOTE : WE CAN ADD MORE THAN ONE ELEMENT
+        // let array = [1, 2, 3, 4]
+        // console.log(array);
+        // array.push(5, "hello", "bye")
+        // console.log(array);
+
+        // POP(): ITS TO REMOVE AN ELEMENT FROM LAST
+        // NOTE: WE CANT REMOVE MULTIPLE AN ELEMENT FROM SIMULTANEOUSLY
+        // console.log(array.pop());
+        // console.log(array);
+
+
+        //UNSHIFT(): its used to ADD THE MULTIPLE ELEMENT FROM START INDEX ,AND 
+        // IT WILL RETURN US UPDATED LENGTH OF AN ARRAY
+        // console.log(array.unshift(20, 20, 30));
+        // console.log(array)
+
+        //shift():ITS A USED TO ADD THE REMOVE AN ELEMENT FROM START INDEX AND IT WILL RETURN DELETE ELEMENT
+        // NOTE: WE CANT DELETE MORE THAN ONE ELEMENT
+        // console.log(array.shift());
+        // console.log(array);
+
+        // reverse():ITS A USED TO remove an element
+        // console.log(array.reverse());
+        // console.log(array);
+
+        //sort(): ITS USED ELEMENT
+        // let sort1 = [10, 100, 20, 200, 50, 60, 10]
+        // let sort2 = ["banana", "apple", "sapota", 1, 4, 6, 2]
+        // console.log(sort2.sort());
+
+        //includes(): THIS IS USED TO CHECK THE ELEMENT WEATHER ITS PRESENT OR NOT IF PRESENT MEANS IT WILL RETURN TRUE OR FALSE
+        let array2 = ["hello", true, "bye", 10, 20]
+            // console.log(array2.includes("apple"));
+
+        //INDEXOF(): ITS USED TO CHECK THE INDEX OF AN ELEMENT.
+        console.log(array2.indexOf("bye"));
+
+        //slice(START INDEX LAST INDEX): ITS USED TO SPLIT THE ARRAY INTO NO OF FRAME
+        let array3 = [1, 2, 3, 4, 5, 6, 7, 8]
+        console.log(array3);
+        console.log(array3.slice(2, 5));
+
+        //SPLICE():ITS USED TO DELETE AND ELEMENT AND REPLACE THE DELETED ELEMENT BY  NEW USING ELEMENT
+
+        console.log(array3.splice(1, 5, 100, 200, 300));
+        console.log(array3);
+    </script>
+</body>
+
+</html>

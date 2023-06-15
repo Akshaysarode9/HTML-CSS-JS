@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bulb {
+            height: 700px;
+            width: 700px;
+            border: 1px solid;
+            border-radius: 50%;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bulb"></div>
+    <button onclick="getOn">ON</button>
+    <button onclick="getOff">OFF</button>
+    <script>
+        function getOn() {
+            let elm = document.getElementById("bulb")
+            elm.style.backgroundColor = prompt("enter your color")
+        }
+
+        function getOn() {
+            let elm = document.getElementById("bulb")
+            elm.style.backgroundColor = prompt("bulb")
+        }
+    </script>
+</body>
+
+</html>
